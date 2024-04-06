@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="relative overflow-x-hidden">
+      <div className="relative overflow-x-hidden pb-4">
         <svg
           className="absolute z-[-1] -translate-y-1/4"
           width="1920"
@@ -48,7 +48,7 @@ export default function Home() {
             Dive into topics you’re passionate about and debate with peers
             globally.
           </p>
-          <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full">
+          <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-2">
             Enroll now - Start your speaking journey!
           </button>
         </div>

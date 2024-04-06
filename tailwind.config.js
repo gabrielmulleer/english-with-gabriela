@@ -7,7 +7,11 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ibm: ['"IBM Plex Sans"', "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
