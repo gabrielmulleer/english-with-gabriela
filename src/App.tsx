@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./app/About";
 import Benefits from "./app/Benefits";
 import Home from "./app/Home";
 import HowItWorks from "./app/HowItWorks";
@@ -11,6 +12,7 @@ function App() {
       <HowItWorks />
       <Benefits />
       <Plans />
+      <About />
     </>
   );
 }
