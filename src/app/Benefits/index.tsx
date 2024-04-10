@@ -42,9 +42,9 @@ export default function Benefits() {
     },
   ];
   return (
-    <section id="benefits" className="px-6 py-4">
+    <section id="benefits" className="px-6 py-4 md:py-10 lg:py-40">
       <h2 className="text-xl/6 mb-6 mt-4 font-bold text-[#333333]">BENEFITS</h2>
-      <div className="flex flex-col md:flex-row md:flex-wrap md:gap-x-6 md:justify-center">
+      <div className="flex flex-col items-center md:flex-row md:flex-wrap md:gap-x-6 md:justify-center lg:flex-nowrap">
         {items.map((item) => (
           <BenefitsCard>
             <img src={item.icon} alt="" />
@@ -54,7 +54,7 @@ export default function Benefits() {
         ))}
       </div>
 
-      <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4">
+      <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:w-[40%] lg:w-[30%] ">
         Sign up today to elevate your English!
       </button>
     </section>
