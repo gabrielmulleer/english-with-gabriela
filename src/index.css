@@ -10,7 +10,7 @@
   color-scheme: light dark;
   color: #333333;
   background-color: #ffffff;
-
+  scroll-behavior: smooth;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
