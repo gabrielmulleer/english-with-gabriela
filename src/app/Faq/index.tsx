@@ -28,7 +28,7 @@ export default function Faq() {
   ];
 
   return (
-    <section id="faq" className="px-4 py-4">
+    <section id="faq" className="px-4 py-4 lg:px-48">
       <h2 className="text-xl/6 mb-2 font-bold text-[#333333]">FAQ</h2>
       <FaqAccordion
         items={items}
