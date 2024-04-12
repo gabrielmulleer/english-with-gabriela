@@ -13,16 +13,16 @@ export default function FaqAccordionItem({
   return (
     <>
       <div
-        className={`flex justify-between pb-5 cursor-pointer ${
-          isActive ? "" : "border-b-2 border-[#CFCED3]"
-        }`}
+        className={`flex justify-between pb-5 cursor-pointer last-of-type:border-b-0 ${
+          isActive ? "" : "border-b-2 border-[#CFCED3] "
+        } `}
         onClick={onClickItem}
       >
         <h3 className="font-bold pt-4 text-start">{title}</h3>
         <img src={Chevron} alt="" className="w-3 mr-1 svg-filter" />
       </div>
       <p
-        className={`text-start ${
+        className={`text-start last:border-b-0 ${
           isActive ? "pb-8 border-b-2 border-[#CFCED3]" : ""
         }`}
       >
