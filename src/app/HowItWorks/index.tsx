@@ -8,7 +8,7 @@ export default function HowItWorks() {
       number: 1,
       title: "Weekly Topics",
       content:
-        "Each week, immerse yourself in compelling materials including articles, podcasts, and ebooks.",
+        "Each week, immerse yourself in compelling materials including news, articles, films, series, interviews, videos and podcasts.",
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ export default function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="px-6 pt-4 bg-[#F7F7F7] lg:flex lg:justify-center lg:py-20 lg:px-32 lg:gap-6 "
+      className="px-6 pt-4 bg-[#F7F7F7] lg:flex lg:justify-around lg:py-20 lg:px-8 xl:px-24"
     >
       <img
         src={HowItWorksImg}
@@ -45,7 +45,7 @@ export default function HowItWorks() {
       <div className="lg:max-w-80">
         <h1 className="text-xl/6 mb-6">HOW IT WORKS</h1>
         <HowItWorksList items={items} />
-        <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:w-[40%] md:min-w-fit">
+        <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:w-[40%] md:min-w-fit lg:text-base">
           Sign up today to elevate your English!
         </button>
       </div>

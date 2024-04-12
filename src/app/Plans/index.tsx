@@ -7,12 +7,10 @@ export default function Plans() {
       id="plans"
       className="py-4 px-6 bg-[#F7567C5E] flex flex-col gap-6 "
     >
-      <h2 className="text-xl/6 font-bold text-[#333333]">
+      <h2 className="text-xl/6 font-bold text-[#333333] self-center max-w-52">
         Ready to get started? Sign up now!
       </h2>
-      <p className="px-6 font-medium text-base/5">
-        Boost your English speaking and pronunciation.
-      </p>
+
       <div className="flex flex-col items-center justify-center gap-6 md:flex-row">
         <PlansCard>
           <span className="p-2 rounded-sm	bg-[#26547c] w-fit self-center text-white font-bold text-xs/3">
