@@ -38,15 +38,15 @@ export default function Benefits() {
       icon: HeartIcon,
       title: "Comprehensive Support",
       content:
-        "Benefit from ongoing support and guidance from Gabriela, who is dedicated to your success.",
+        "Benefit from ongoing support and guidance from experienced instructor dedicated to your success.",
     },
   ];
   return (
-    <section id="benefits" className="px-6 py-4 mb-4 md:py-10 lg:py-8">
+    <section id="benefits" className="px-6 py-4 md:py-10 lg:py-32">
       <h2 className="text-xl/6 mb-6 mt-4 font-bold text-[#333333] lg:mb-12">
         BENEFITS
       </h2>
-      <div className="flex flex-col items-center md:flex-row md:flex-wrap md:gap-x-10 md:justify-center md:mb-4 lg:flex-wrap">
+      <div className="flex flex-col items-center md:flex-row md:flex-wrap md:gap-x-6 md:justify-center lg:flex-nowrap">
         {items.map((item) => (
           <BenefitsCard>
             <img src={item.icon} alt="" />
@@ -55,12 +55,10 @@ export default function Benefits() {
           </BenefitsCard>
         ))}
       </div>
-      <a
-        href="#plans"
-        className="button-link block text-[#FCFCFC] bg-[#F7567C] text-xs w-full md:m-auto md:min-w-fit md:w-[40%] md:max-w-[26rem] lg:text-base "
-      >
+
+      <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:w-[40%] lg:w-[30%] ">
         Sign up today to elevate your English!
-      </a>
+      </button>
     </section>
   );
 }
