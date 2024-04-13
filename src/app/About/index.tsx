@@ -23,9 +23,12 @@ export default function About() {
         </div>
         <img src={Profile} alt="" />
       </div>
-      <button className="hidden text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:block md:min-w-fit md:w-[40%] md:max-w-[26rem] lg:w-[50%] lg:text-base ">
+      <a
+        href="#plans"
+        className="button-link hidden text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:block md:min-w-fit md:w-[40%] md:max-w-[26rem] lg:w-[50%] lg:text-base "
+      >
         Sign up today to elevate your English!
-      </button>
+      </a>
     </section>
   );
 }
