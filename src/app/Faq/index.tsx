@@ -11,19 +11,25 @@ export default function Faq() {
       id: 1,
       title: "Will the classes be live?",
       content:
-        " Yes!! The classes will be recorded, and you'll be able to watch them later if you can't attend live.",
+        "Yes, the classes will be live on Tuesdays at 5p.m Brasilia Time, but they will be recorded. You can watch them later if you prefer.",
     },
     {
       id: 2,
       title: "Will I be able to watch the classes later?",
       content:
-        " Yes!! The classes will be recorded, and you'll be able to watch them later if you can't attend live.",
+        "Yes! The classes will be recorded so you can watch them anytime you want. ",
     },
     {
       id: 3,
-      title: "Will I really improve my English speaking skills?",
+      title: "Will I really improve my English?",
       content:
-        " Yes!! The classes will be recorded, and you'll be able to watch them later if you can't attend live.",
+        "Yes. The best way to improve your listening and speaking skills is to be exposed to authentic content in English and Gabriela will help you through the process. ",
+    },
+    {
+      id: 4,
+      title: "Is this course for me?",
+      content:
+        "If you can understand the video above and you need to improve your listening and speaking skills, this course is for you.",
     },
   ];
 
