@@ -9,12 +9,26 @@ export default function Footer() {
     >
       <div className="flex flex-col items-center gap-6 lg:flex-row-reverse">
         <div className="flex items-center gap-4">
-          <img src={instagramIcon} alt="" />
-          <img src={youtubeIcon} alt="" />
-          <img src={tiktokIcon} alt="" />
+          <a
+            href="https://www.instagram.com/englishwithgabriela/"
+            target="_blank"
+          >
+            <img src={instagramIcon} alt="Instagram Icon" />
+          </a>
+          <a
+            href="https://www.youtube.com/@englishwithgabriela"
+            target="_blank"
+          >
+            <img src={youtubeIcon} alt="Youtube Icon" />
+          </a>
+          <a href="https://tiktok.com/@englishwithgabriela/" target="_blank">
+            <img src={tiktokIcon} alt="Tiktok Icon" />
+          </a>
         </div>
         <div className="text-sm/4 font-bold text-[#333333]">
-          support@englishwithgabriela.com
+          <a href="mailto:support@englishwithgabriela.com">
+            support@englishwithgabriela.com
+          </a>
         </div>
       </div>
       <div className="text-sm/4 font-bold text-[#333333]">
