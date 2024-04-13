@@ -1,6 +1,9 @@
 export default function Home() {
   return (
-    <section id="home" className="relative overflow-x-hidden pb-4">
+    <section
+      id="home"
+      className="relative overflow-x-hidden pb-6 flex flex-col"
+    >
       <svg
         className="absolute z-[-1] -translate-y-1/4"
         width="1920"
@@ -20,7 +23,7 @@ export default function Home() {
           </linearGradient>
         </defs>
       </svg>
-      <nav className="hidden relative lg:block py-8 px-20">
+      <nav className="hidden relative lg:block py-8 lg:px-16 2xl:px-32">
         <div className="flex absolute flex-row justify-between gap-16">
           <a className="font-ibm text-sm	 text-white" href="#how-it-works">
             HOW IT WORKS
@@ -36,36 +39,41 @@ export default function Home() {
           </a>
         </div>
       </nav>
-      <div className="flex flex-col items-center pt-4 px-4 lg:flex-row lg:items-start lg:pt-[3rem] lg:pb-[2rem] lg:pl-20 lg:justify-between">
+      <div className="flex flex-col items-center pt-4 px-4 lg:flex-row lg:items-start lg:pt-[2rem] lg:pb-[2rem] lg:justify-between lg:px-16 2xl:px-32">
         <div className="lg:shrink-[3] flex flex-col items-center lg:items-start lg:text-start">
-          <h1 className="mb-6 text-[#f8f8f8] lg:text-3xl lg:max-w-[38rem]">
-            Enhance your English speaking skills by exploring fascinating
-            subjects!
+          <h1 className="mb-6 text-[#f8f8f8] lg:text-3xl lg:max-w-[46rem] 2xl:text-5xl">
+            Improve your listening and speaking skills by exploring fascinating
+            topics!
           </h1>
           <p className="mb-6 text-xl/6 text-[#f8f8f8]">
             Transform your language skills by discussing what you love
           </p>
-          <button className="mb-12 text-[#F7567C] bg-[#f8f8f8] font-bold text-xs w-full md:w-[40%] lg:w-fit">
+          <a
+            href="#plans"
+            className="button-link block mb-12 text-[#F7567C] bg-[#f8f8f8] font-bold text-xs w-full md:w-[40%] lg:w-fit lg:text-base"
+          >
             Enroll now - Start your speaking journey!
-          </button>
+          </a>
         </div>
         <video
-          className="mb-6 px-2 lg:shrink lg:pr-8"
+          className="mb-6 px-2 lg:shrink-[2]"
           src=""
           width="750"
           height="500"
           controls
         ></video>
       </div>
-      <div className="px-6 lg:px-32">
-        <p className=" text-sm/4 mb-6 text-start text-[#333333] lg:text-2xl lg:text-center ">
-          Welcome to [Your Course Name], where mastering English speaking is not
-          just learning; it’s about engaging, understanding, and thriving. Dive
-          into topics you’re passionate about and debate with peers globally.
+      <div className="px-6 lg:px-32 lg:py-8 lg:mt-8 lg:max-w-7xl lg:self-center ">
+        <p className=" text-sm/4 mb-6 text-start md:text-center text-[#333333] lg:text-2xl lg:text-center md:text-lg ">
+          Welcome to Afternoon Tea, where you learn the English people speak in
+          real life.
         </p>
-        <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-2 md:w-[40%]">
+        <a
+          href="#plans"
+          className="button-link block text-[#FCFCFC] bg-[#F7567C] text-xs w-full md:m-auto md:min-w-fit md:w-[40%]  md:max-w-[26rem] lg:w-[50%] lg:text-base "
+        >
           Enroll now - Start your speaking journey!
-        </button>
+        </a>
       </div>
     </section>
   );
