@@ -66,7 +66,7 @@ export default function Home() {
           learning; it’s about engaging, understanding, and thriving. Dive into
           topics you’re passionate about and debate with peers globally.
         </p>
-        <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-2 md:w-[50%] lg:text-base">
+        <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-2 md:min-w-fit md:w-[40%]  md:max-w-[26rem] lg:w-[50%] lg:text-base ">
           Enroll now - Start your speaking journey!
         </button>
       </div>

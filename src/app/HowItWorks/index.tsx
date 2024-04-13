@@ -35,17 +35,17 @@ export default function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="px-6 pt-4 bg-[#F7F7F7] lg:flex lg:justify-around lg:py-20 lg:px-8 xl:px-24"
+      className="px-6 pt-4 bg-[#F7F7F7] lg:flex lg:justify-evenly lg:py-20 lg:px-8 xl:px-24"
     >
       <img
         src={HowItWorksImg}
         alt=""
         className="hidden lg:block drop-shadow-xl"
       />
-      <div className="lg:max-w-80">
+      <div className="lg:max-w-[26rem]">
         <h1 className="text-xl/6 mb-6">HOW IT WORKS</h1>
         <HowItWorksList items={items} />
-        <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:w-[40%] md:min-w-fit lg:text-base">
+        <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:min-w-fit md:w-[40%] md:max-w-[26rem] lg:w-full lg:text-base">
           Sign up today to elevate your English!
         </button>
       </div>

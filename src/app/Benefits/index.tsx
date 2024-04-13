@@ -55,8 +55,7 @@ export default function Benefits() {
           </BenefitsCard>
         ))}
       </div>
-
-      <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:w-[40%] lg:w-[50%] lg:text-base ">
+      <button className="text-[#FCFCFC] bg-[#F7567C] text-xs w-full mb-4 md:min-w-fit md:w-[40%] md:max-w-[26rem] lg:text-base ">
         Sign up today to elevate your English!
       </button>
     </section>
