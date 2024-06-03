@@ -5,7 +5,7 @@ export default function Plans() {
   return (
     <section
       id="plans"
-      className="py-4 px-6 bg-[#F7567C5E] flex flex-col gap-6 "
+      className="py-4 lg:py-8 px-6 bg-[#F7567C5E] flex flex-col gap-6 "
     >
       <h2 className="text-xl/6 font-bold text-[#333333] self-center max-w-52">
         Ready to get started? Sign up now!

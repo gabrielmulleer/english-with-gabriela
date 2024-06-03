@@ -11,10 +11,10 @@ function App() {
   return (
     <>
       <Home />
+      <About />
       <HowItWorks />
       <Benefits />
       <Plans />
-      <About />
       <Faq />
       <Footer />
     </>

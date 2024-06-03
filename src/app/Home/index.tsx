@@ -47,7 +47,7 @@ export default function Home() {
       </nav>
       <div className="flex flex-col items-center pt-4 px-4 lg:flex-row lg:items-start lg:pt-[2rem] lg:pb-[2rem] lg:justify-between lg:px-16 2xl:px-32">
         <div className=" flex flex-col md:ml-2 items-center lg:items-start lg:text-start md:min-w-[45rem] lg:min-w-[24rem]">
-          <h1 className="mb-6 text-[#f8f8f8] lg:text-3xl lg:max-w-[46rem] 2xl:text-5xl">
+          <h1 className="mb-6 text-[#f8f8f8] lg:text-3xl lg:max-w-[46rem] xl:pr-[2rem] 2xl:text-5xl">
             Learn English wherever you are!
           </h1>
           <p className="mb-6 text-xl/6 text-[#f8f8f8]">
