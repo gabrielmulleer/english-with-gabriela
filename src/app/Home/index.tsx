@@ -6,7 +6,10 @@ export default function Home() {
     setIsLoading(false);
   };
   return (
-    <section id="home" className="relative overflow-x-hidden pb-4">
+    <section
+      id="home"
+      className="relative overflow-x-hidden pb-6 flex flex-col"
+    >
       <svg
         className="absolute z-[-1] -translate-y-1/4"
         width="1920"
@@ -26,7 +29,7 @@ export default function Home() {
           </linearGradient>
         </defs>
       </svg>
-      <nav className="hidden relative lg:block py-8 px-20">
+      <nav className="hidden relative lg:block py-8 lg:px-16 2xl:px-32">
         <div className="flex absolute flex-row justify-between gap-16">
           <a className="font-ibm text-sm	 text-white" href="#how-it-works">
             HOW IT WORKS
@@ -50,11 +53,13 @@ export default function Home() {
           <p className="mb-6 text-xl/6 text-[#f8f8f8]">
             We have helped more than 1000 people learn English.
           </p>
-          <button className="mb-12 text-[#F7567C] bg-[#f8f8f8] font-bold text-xs w-full md:w-[40%] lg:w-fit">
+          <a
+            href="#plans"
+            className="button-link block mb-12 text-[#F7567C] bg-[#f8f8f8] font-bold text-xs w-full md:w-[40%] lg:w-fit lg:text-base"
+          >
             Enroll now - Start your speaking journey!
-          </button>
+          </a>
         </div>
-
         <div className=" px-2 mb-6  max-w-[750px] w-full ">
           <div className="relative flex items-center justify-center">
             {isLoading && (
@@ -84,7 +89,6 @@ export default function Home() {
         >
           Enroll now - Start your speaking journey!
         </a>
-        </button>
       </div>
     </section>
   );
