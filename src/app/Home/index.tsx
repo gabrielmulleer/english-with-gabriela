@@ -29,8 +29,11 @@ export default function Home() {
           </linearGradient>
         </defs>
       </svg>
-      <nav className="hidden relative lg:block py-8 lg:px-16 2xl:px-32">
+     <nav className="hidden relative lg:block py-8 lg:px-16 2xl:px-32">
         <div className="flex absolute flex-row justify-between gap-16">
+          <a className="font-ibm text-sm	 text-white" href="#about">
+            WHO IS YOUR TEACHER
+          </a>
           <a className="font-ibm text-sm	 text-white" href="#how-it-works">
             HOW IT WORKS
           </a>
@@ -40,8 +43,8 @@ export default function Home() {
           <a className="font-ibm text-sm	 text-white" href="#plans">
             PLANS
           </a>
-          <a className="font-ibm text-sm	 text-white" href="#about">
-            WHO IS YOUR TEACHER
+          <a className="font-ibm text-sm	 text-white" href="#faq">
+            FAQ
           </a>
         </div>
       </nav>
