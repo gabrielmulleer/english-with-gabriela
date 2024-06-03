@@ -83,6 +83,7 @@ export default function Home() {
           className="button-link block text-[#FCFCFC] bg-[#F7567C] text-xs w-full md:m-auto md:min-w-fit md:w-[40%]  md:max-w-[26rem] lg:w-[50%] lg:text-base "
         >
           Enroll now - Start your speaking journey!
+        </a>
         </button>
       </div>
     </section>
