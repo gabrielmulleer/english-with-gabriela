@@ -19,7 +19,7 @@ export default function Plans() {
             Monthly Plan
           </span>
           <p className="text-base/5 font-medium">
-            Boost your English speaking and pronunciation.
+            Boost your listening and speaking skills
           </p>
           <div className="text-2xl/7 font-bold text-[#f7567c]">
             $49.99/month
@@ -44,7 +44,7 @@ export default function Plans() {
             Annual Plan
           </span>
           <p className="text-base/5 font-medium">
-            Boost your English speaking and pronunciation.
+            Boost your listening and speaking skills
           </p>
           <div className="text-2xl/7 font-bold text-[#f7567c]">
             $499.99/year
