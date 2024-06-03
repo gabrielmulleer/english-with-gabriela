@@ -11,7 +11,7 @@ export default function Faq() {
       id: 1,
       title: "Will the classes be live?",
       content:
-        " Yes!! The classes will be recorded, and you'll be able to watch them later if you can't attend live.",
+        "Yes, the classes will be live on Tuesdays at 2p.m Brasilia Time, but they will be recorded. You can watch them later if you prefer.",
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ export default function Faq() {
   ];
 
   return (
-    <section id="faq" className="px-4 py-4 lg:px-48">
+    <section id="faq" className="px-4 py-4 lg:py-8 m-auto max-w-4xl  ">
       <h2 className="text-xl/6 mb-2 font-bold text-[#333333]">FAQ</h2>
       <FaqAccordion
         items={items}
