@@ -8,28 +8,28 @@ export default function HowItWorks() {
       number: 1,
       title: "Weekly Topics",
       content:
-        "Each week, immerse yourself in compelling materials including news articles, films, series, interviews, videos and podcasts.",
+        "Each week, immerse yourself in compelling materials including news articles, films, series, interviews, videos and podcasts. It's super fun!",
     },
     {
       id: 2,
       number: 2,
       title: "Interactive Lecture",
       content:
-        "Join our special class, where Gabriela will discuss the weekly topic. During the session, you will have the opportunity to send messages in the chat to interact and engage in real time.",
+        "Join our special class, where Gabriela will discuss the weekly topic. During the session, you will have the opportunity to send messages in the chat to interact and engage in real time. Cool, right?",
     },
     {
       id: 3,
       number: 3,
       title: "Practice your Speaking",
       content:
-        "Students will submit a video or audio recording sharing their opinion on the topic to practice their English speaking skills.",
+        "Students will submit a video or audio recording sharing their opinion on the topic to practice their English speaking skills. Speak up!",
     },
     {
       id: 4,
       number: 4,
       title: "Individualized Feedback",
       content:
-        "Receive personalized feedback to guide your learning journey and  fast-track your progress.",
+        "Receive personalized feedback to guide your learning journey and fast-track your progress. You're on your way to success!",
     },
   ];
   return (
@@ -49,7 +49,7 @@ export default function HowItWorks() {
           href="#plans"
           className="button-link block text-[#FCFCFC] bg-[#F7567C] text-xs w-full md:m-auto md:min-w-fit md:w-[40%] md:max-w-[26rem] lg:w-full lg:text-base"
         >
-          Sign up today to elevate your English!
+          Sign up now to elevate your English!
         </a>
       </div>
     </section>

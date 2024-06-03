@@ -11,7 +11,7 @@ export default function Faq() {
       id: 1,
       title: "Will the classes be live?",
       content:
-        "Yes, the classes will be live on Tuesdays at 5p.m Brasilia Time, but they will be recorded. You can watch them later if you prefer.",
+        "Yes, the classes will be live on Tuesdays at 2p.m Brasilia Time, but they will be recorded. You can watch them later if you prefer.",
     },
     {
       id: 2,

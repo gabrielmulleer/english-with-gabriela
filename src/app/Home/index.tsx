@@ -82,7 +82,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-6 lg:px-32 lg:pb-8 lg:mt-8 lg:max-w-7xl lg:self-center ">
+      <div className="px-6 lg:px-32 lg:py-8 xl:pt-0 lg:mt-8 lg:max-w-7xl lg:self-center ">
         <a
           href="#plans"
           className="button-link block text-[#FCFCFC] bg-[#F7567C] text-xs w-full md:m-auto md:min-w-fit md:w-[40%]  md:max-w-[26rem] lg:w-[50%] lg:text-base "

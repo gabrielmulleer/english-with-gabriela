@@ -59,7 +59,7 @@ export default function Benefits() {
         href="#plans"
         className="button-link block text-[#FCFCFC] bg-[#F7567C] text-xs w-full md:m-auto md:min-w-fit md:w-[40%] md:max-w-[26rem] lg:text-base "
       >
-        Sign up today to elevate your English!
+        Sign up now to elevate your English!
       </a>
     </section>
   );
