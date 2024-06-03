@@ -38,7 +38,7 @@ export default function Benefits() {
       icon: HeartIcon,
       title: "Comprehensive Support",
       content:
-        "Benefit from ongoing support and guidance from Gabriela, who is dedicated to your success.",
+        "Benefit from ongoing support and guidance from experienced instructor dedicated to your success.",
     },
   ];
   return (
@@ -46,7 +46,7 @@ export default function Benefits() {
       <h2 className="text-xl/6 mb-6 font-bold text-[#333333] lg:mb-12">
         BENEFITS
       </h2>
-      <div className="flex flex-col items-center md:flex-row md:flex-wrap md:gap-x-10 md:justify-center md:mb-4 lg:flex-wrap">
+      <div className="flex flex-col items-center md:flex-row md:flex-wrap md:gap-x-6 md:justify-center lg:flex-nowrap">
         {items.map((item) => (
           <BenefitsCard>
             <img src={item.icon} alt="" />

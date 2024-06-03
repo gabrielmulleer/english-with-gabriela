@@ -17,19 +17,13 @@ export default function Faq() {
       id: 2,
       title: "Will I be able to watch the classes later?",
       content:
-        "Yes! The classes will be recorded so you can watch them anytime you want. ",
+        " Yes!! The classes will be recorded, and you'll be able to watch them later if you can't attend live.",
     },
     {
       id: 3,
-      title: "Will I really improve my English?",
+      title: "Will I really improve my English speaking skills?",
       content:
-        "Yes. The best way to improve your listening and speaking skills is to be exposed to authentic content in English and Gabriela will help you through the process. ",
-    },
-    {
-      id: 4,
-      title: "Is this course for me?",
-      content:
-        "If you can understand the video above and you need to improve your listening and speaking skills, this course is for you.",
+        " Yes!! The classes will be recorded, and you'll be able to watch them later if you can't attend live.",
     },
   ];
 
