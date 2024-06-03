@@ -26,8 +26,8 @@ export default function Footer() {
           </a>
         </div>
         <div className="text-sm/4 font-bold text-[#333333]">
-          <a href="mailto:support@englishwithgabriela.com">
-            support@englishwithgabriela.com
+          <a href="mailto:contact@englishwithgabriela.com">
+            contact@englishwithgabriela.com
           </a>
         </div>
       </div>
