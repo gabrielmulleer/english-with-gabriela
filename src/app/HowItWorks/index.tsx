@@ -35,7 +35,7 @@ export default function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="px-6 pt-4 bg-[#F7F7F7] lg:flex lg:justify-center lg:py-20 lg:px-32 lg:gap-6 "
+      className="px-6 py-4 bg-[#F7F7F7] lg:flex lg:justify-center lg:py-20 lg:px-32 lg:gap-6 "
     >
       <img
         src={HowItWorksImg}
